@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <input type="text" id="searchBar" placeholder="Search for images...">
+    </header>
+    <div class="gallery-container" id="gallery">
+        <!-- Gallery items -->
+        <div class="gallery-item" data-keywords="necklace jewelry">
+            <img src="C:\Users\user\Desktop\CodeAlpha\necklace1.jpg" alt="Necklace Image 1">
+        </div>
+        <div class="gallery-item" data-keywords="rings jewelry">
+            <img src="C:\Users\user\Desktop\CodeAlpha\ring1.jpg" alt="Rings Image 1">
+        </div>
+        <div class="gallery-item" data-keywords="rings jewelry">
+            <img src="C:\Users\user\Desktop\CodeAlpha\ring3.jpg" alt="Rings Image 2">
+        </div>
+        <div class="gallery-item" data-keywords="rings jewelry">
+            <img src="C:\Users\user\Desktop\CodeAlpha\creative jewellery photography.jpeg.jpg" alt="Rings Image 3">
+        </div>
+        <div class="gallery-item" data-keywords="earing jewelry">
+            <img src="C:\Users\user\Desktop\CodeAlpha\earing1.jpg" alt="Earing Image 1">
+        </div>
+        <div class="gallery-item" data-keywords="necklace jewelry">
+            <img src="C:\Users\user\Desktop\CodeAlpha\nacklace3.jpg" alt="Necklace Image 2">
+        </div>
+        <div class="gallery-item" data-keywords="necklace jewelry">
+            <img src="C:\Users\user\Desktop\CodeAlpha\Pearls Beaded Strawberry Choker Necklace.jpeg.jpg" alt="Necklace Image 3">
+        </div>
+        <div class="gallery-item" data-keywords="ring jewelry">
+            <img src="C:\Users\user\Desktop\CodeAlpha\ring2.jpg" alt="Ring Image 4">
+        </div>
+        <div class="gallery-item" data-keywords="earing jewelry">
+            <img src="C:\Users\user\Desktop\CodeAlpha\earing2.jpg" alt="Earing Image 2">
+        </div>
+        <div class="gallery-item" data-keywords="Necklace jewelery">
+            <img src="C:\Users\user\Desktop\CodeAlpha\necklace2.jpg" alt="Necklace Image 4">
+        </div>
+    </div>
+    <!-- Modal -->
+    <div id="imageModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modalImage">
+        <div id="caption"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
